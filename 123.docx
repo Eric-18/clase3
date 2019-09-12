@@ -1,0 +1,36 @@
+LABNODO01@FIGMMG-G2-NOD01 MINGW64 ~/Desktop/ERIC
+$ git init
+Initialized empty Git repository in C:/Users/LABNODO01/Desktop/ERIC/.git/
+
+LABNODO01@FIGMMG-G2-NOD01 MINGW64 ~/Desktop/ERIC (master)
+$ git add .
+
+LABNODO01@FIGMMG-G2-NOD01 MINGW64 ~/Desktop/ERIC (master)
+$ git commit -m "clase 3"
+[master (root-commit) 2afe725] clase 3
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 123.docx
+ create mode 100644 234.txt
+
+LABNODO01@FIGMMG-G2-NOD01 MINGW64 ~/Desktop/ERIC (master)
+$ git remote add origin https://github.com/Eric-18/clase3.git
+
+LABNODO01@FIGMMG-G2-NOD01 MINGW64 ~/Desktop/ERIC (master)
+$ git push -u origin master
+remote: Permission to Eric-18/clase3.git denied to stefAracely0032.
+fatal: unable to access 'https://github.com/Eric-18/clase3.git/': The requested URL returned error: 403
+
+LABNODO01@FIGMMG-G2-NOD01 MINGW64 ~/Desktop/ERIC (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 222 bytes | 222.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Eric-18/clase3.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+LABNODO01@FIGMMG-G2-NOD01 MINGW64 ~/Desktop/ERIC (master)
+$
